@@ -1,1 +1,10 @@
-:)
+#include <Trade/Trade.mqh>
+
+CTrade trade;
+
+input double LotSize = 0.1;
+input int StopLoss = 300;
+input int TakeProfit = 600;
+input int FastEMA = 20;
+input int SlowEMA = 50;
+input int RSI_Period = 14;
